@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 60vw;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(182,60,189,1) 52%, rgba(0,212,255,1) 100%);
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;    
+    align-items: center;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.one{
+
+    text-align: center;
+}
